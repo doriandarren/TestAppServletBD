@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+         version="2.5">
+         
+    <!-- ADMIN -->
+  <servlet>
+    <servlet-name>servletadmin</servlet-name>
+    <servlet-class>servlet.ServletAdmin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>servletadmin</servlet-name>
+    <url-pattern>/servletadmin</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  <servlet>
+		<servlet-name>getadmins</servlet-name>
+		<servlet-class>servlet.GetAdmins</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>getadmins</servlet-name>
+		<url-pattern>/getadmins</url-pattern>
+	</servlet-mapping>
+		
+	 <servlet>
+		<servlet-name>adminupdate</servlet-name>
+		<servlet-class>servlet.ServletAdminUpdate</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>adminupdate</servlet-name>
+		<url-pattern>/adminupdate</url-pattern>
+	</servlet-mapping>
+	
+	 <servlet>
+		<servlet-name>admindelete</servlet-name>
+		<servlet-class>servlet.ServletAdminDelete</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>admindelete</servlet-name>
+		<url-pattern>/admindelete</url-pattern>
+	</servlet-mapping>
+	
+	
+	<!-- GALLERY -->
+	
+	<servlet>
+    <servlet-name>servletgallery</servlet-name>
+    <servlet-class>servlet.ServletGallery</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>servletgallery</servlet-name>
+    <url-pattern>/servletgallery</url-pattern>
+  </servlet-mapping>
+	
+	<servlet>
+		<servlet-name>servletgallerycreate</servlet-name>
+		<servlet-class>servlet.ServletGalleryCreate</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>servletgallerycreate</servlet-name>
+		<url-pattern>/servletgallerycreate</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>galleryupdate</servlet-name>
+		<servlet-class>servlet.ServletGalleryUpdate</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>galleryupdate</servlet-name>
+		<url-pattern>/galleryupdate</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>gallerydelete</servlet-name>
+		<servlet-class>servlet.ServletGalleryDelete</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>gallerydelete</servlet-name>
+		<url-pattern>/gallerydelete</url-pattern>
+	</servlet-mapping>
+	
+	
+	<!-- GALLERY -->
+	
+	<servlet>
+    <servlet-name>servletitem</servlet-name>
+    <servlet-class>servlet.ServletItem</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>servletitem</servlet-name>
+    <url-pattern>/servletitem</url-pattern>
+  </servlet-mapping>
+	
+  <servlet>
+    <servlet-name>itemadd</servlet-name>
+    <servlet-class>servlet.ServletItemCreate</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>itemadd</servlet-name>
+    <url-pattern>/itemadd</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>itemupdate</servlet-name>
+    <servlet-class>servlet.ServletItemUpdate</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>itemupdate</servlet-name>
+    <url-pattern>/itemupdate</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>itemdelete</servlet-name>
+    <servlet-class>servlet.ServletItemDelete</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>itemdelete</servlet-name>
+    <url-pattern>/itemdelete</url-pattern>
+  </servlet-mapping>
+  
+  
+	
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+  
+</web-app>

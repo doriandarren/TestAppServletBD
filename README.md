@@ -1,10 +1,10 @@
-TestAppServletBD
+#TestAppServletBD
 
 Proyecto fase alpha (version 1.0).
 
-Est· proyecto demuestra como integrar la plataforma Java Platform Enterprise Edition (Java EE) con Java Persistence API m·s conocida por sus siglas JPA y Eclipselink. TambiÈn se integro Bootstrap como framework de desarrollo responsive en HTML, CSS, and JS.
+Est√° proyecto demuestra como integrar la plataforma Java Platform Enterprise Edition (Java EE) con Java Persistence API m√°s conocida por sus siglas JPA y Eclipselink. Tambi√©n se integro Bootstrap como framework de desarrollo responsive en HTML, CSS, and JS.
 
-MÛdulos del proyecto:
+M√≥dulos del proyecto:
 
 Home - pagina principal
 
